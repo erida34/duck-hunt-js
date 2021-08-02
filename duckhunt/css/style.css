@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'PressStart2P';
+  src:  url('font/PressStart2P.ttf') format('truetype');
+}
+main{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main__block{
+	width: 800px;
+	height: 600px;
+	background: #64b0ff;
+	position: relative;
+	overflow: hidden;
+}
+.front{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/scene/0.png");
+	position: absolute;
+	z-index: 5;
+
+}
+.duck{
+	position: absolute;
+	z-index: 6;
+	cursor: pointer;
+	display: block;
+}
+.dog{
+	position: absolute;
+	z-index: 2;
+	display: block;
+}
+.points{
+	font-family: 'PressStart2P';
+	position: absolute;
+	z-index: 8;
+  top: 560px;
+  right: 50px;
+  color: white;
+  background: black;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
